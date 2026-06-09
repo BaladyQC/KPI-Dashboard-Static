@@ -162,7 +162,7 @@ hr { border:none; border-top:1px solid #e4e8ec; margin:0 0 16px; }
       <div class="stat-box gb"><div class="stat-num g" id="stat-ok">—</div><div class="stat-desc">Metrics On Target</div></div>
       <div class="stat-box ob"><div class="stat-num o" id="stat-att">—</div><div class="stat-desc">Need Attention</div></div>
       <div class="stat-box rb"><div class="stat-num r" id="stat-crit">—</div><div class="stat-desc">Critical</div></div>
-      <div class="stat-box db"><div class="stat-num w" id="stat-qs">— / 100</div><div class="stat-desc w">Overall Benchmark Score</div><div class="stat-desc w" style="font-size:10px;margin-top:3px;opacity:0.6;">Target: ≥ 80</div><div class="stat-desc w" id="stat-qs-label" style="font-size:11px;margin-top:4px;opacity:0.85;font-style:italic;">—</div></div>
+      <div class="stat-box db"><div class="stat-num w" id="stat-qs">— / 100</div><div class="stat-desc w">Overall Benchmark Score</div><div class="stat-desc w" style="font-size:10px;margin-top:3px;opacity:0.6;">Target: ≥ 90</div><div class="stat-desc w" id="stat-qs-label" style="font-size:11px;margin-top:4px;opacity:0.85;font-style:italic;">—</div></div>
     </div>
   </div>
 
@@ -352,13 +352,13 @@ const KPI_DATA = {
     sev_counts:{"1 - Critical":17,"2 - High":119,"3 - Medium":349,"4 - Low":79},
     state_counts:{"Active":27,"New":91,"ReadyToBuild":16,"Resolved":45,"Closed":385}
   },
-  jun2026: {
+    jun2026: {
     label:'June 2026', title:'June 2026',
-    total:225, closed:136, crithigh:85, reopen:0,
-    rejected:0, prod:18, cr:179, tc:194,
-    fix_issues:0, tech_impact:18,
-    dl_pct:8, rr_pct:0, ch_pct:37.78, rej_pct:0, res_pct:60.4,
-    qs:78.3, dpts:27.6, cpts:18.67, rpts:20, resPts:12.08,
+    total:391, closed:246, crithigh:142, reopen:1,
+    rejected:4, prod:28, cr:139, tc:512,
+    fix_issues:0, tech_impact:28,
+    dl_pct:7.16, rr_pct:0.41, ch_pct:36.32, rej_pct:1.02, res_pct:62.9,
+    qs:79.5, dpts:27.85, cpts:19.1, rpts:19.92, resPts:12.58,
     bugs_by_prod:{"ContractorClassification":269,"BaladyPlus":94,"ConstructionLicenses":54,"Nasseq":36,"Ekram":22,"CommercialLicenses":20,"PlanApproval":14,"HealthCertificates":10,"Tawakkalna":9,"BaladyBusiness":7,"EwaaAndTobacco":7,"BaladyPortal":6,"LaborHousing":5},
     rc_counts:{"Development":275,"Development-Balady":86,"Mobile":79,"Data":23,"Enhancement":19,"Business":19,"Production Team":12,"Infrastructure":12,"Integration":10,"Development-Pega":10,"Operation":7,"Product Manager":5},
     tc_by_prod:{"BaladyBusiness":360,"CommercialLicenses":137,"ContractorClassification":117,"BaladyPlus":107,"ConstructionLicenses":77,"HealthCertificates":64,"Nasseq":28,"MergeAndSplit":26},
