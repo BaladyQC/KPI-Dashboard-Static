@@ -515,22 +515,22 @@ const KPI_DATA = {
   // loading (not just the CR table) before exporting.
   nov2026: {
     label:'November 2026', title:'November 2026',
-    total:0, closed:0, crithigh:0, reopen:0,
-    rejected:0, prod:0, cr:0, tc:0,
+    total:12, closed:3, crithigh:7, reopen:0,
+    rejected:0, prod:0, cr:84, tc:127,
     fix_issues:0, tech_impact:0,
-    dl_pct:0, rr_pct:0, ch_pct:0, rej_pct:0, res_pct:0,
-    qs:0, dpts:0, cpts:0, rpts:0, resPts:0,
+    dl_pct:0, rr_pct:0, ch_pct:58.33, rej_pct:0, res_pct:25,
+    qs:67.5, dpts:30, cpts:12.5, rpts:20, resPts:5,
     analysis_by_prod:{}, analysis_total:0, analysis_status:'none',
-    bugs_by_prod:{},
-    rc_counts:{},
-    cr_prod_counts:{},
-    cr_state_counts:{},
-    cr_type_counts:{},
-    cr_prod_state:{},
-    cr_auth_total:0,
-    tc_by_prod:{},
-    sev_counts:{},
-    state_counts:{}
+    bugs_by_prod:{"Ekram":1,"LaborHousing":7,"ConstructionLicenses":4},
+    rc_counts:{"Integration-External":1,"Development-Balady":9,"Infrastructure":1,"Integration":1},
+    cr_prod_counts:{"StreetVendors":1,"ConstructionLicenses":16,"PlanApproval":3,"MergeAndSplit":3,"WasteManagement":8,"ContractorClassification":6,"SurveyReports":13,"Nasseq":6,"VolunteerPlatform":1,"Ekram":4,"Tawakkalna":2,"LaborHousing":6,"BaladyBusiness":1,"CommercialLicenses":13,"BaladyPlus":1},
+    cr_state_counts:{"Analysis":6,"Development":7,"Ready For Development":21,"New":34,"Preparing Release":3,"Ready For QC":3,"QC Fixing Bugs":3,"Ready For Analysis":6,"Operation Testing":1},
+    cr_type_counts:{"خدمة":12,"طلب تغيير":71,"طلب تغيير - مسار سريع":1},
+    cr_prod_state:{"StreetVendors":{"Analysis":1},"ConstructionLicenses":{"Development":3,"New":5,"Ready For Development":3,"Ready For Analysis":5},"PlanApproval":{"Development":2,"Ready For Development":1},"MergeAndSplit":{"Analysis":1,"New":1,"Ready For QC":1},"WasteManagement":{"New":8},"ContractorClassification":{"Preparing Release":3,"New":2,"QC Fixing Bugs":1},"SurveyReports":{"New":8,"Ready For QC":1,"Ready For Development":3,"Development":1},"Nasseq":{"Ready For Development":2,"New":3,"Operation Testing":1},"VolunteerPlatform":{"Ready For Development":1},"Ekram":{"Development":1,"Ready For Development":2,"Ready For Analysis":1},"Tawakkalna":{"New":2},"LaborHousing":{"Ready For Development":3,"Ready For QC":1,"Analysis":2},"BaladyBusiness":{"Analysis":1},"CommercialLicenses":{"New":4,"QC Fixing Bugs":2,"Ready For Development":6,"Analysis":1},"BaladyPlus":{"New":1}},
+    cr_auth_total:84,
+    tc_by_prod:{"Ekram":83,"CommercialLicenses":10,"Nasseq":34},
+    sev_counts:{"1 - Critical":1,"2 - High":6,"3 - Medium":5},
+    state_counts:{"Closed":3,"New":7,"ReadyToBuild":2}
   }
 };
 
